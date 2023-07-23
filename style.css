@@ -239,9 +239,9 @@ h1 {
 
 /* #region footer */
 .footer {
-    position: sticky;
+    /* position: sticky;
     bottom: 0;
-    z-index: -1;
+    z-index: -1; */
     height: 460px;
     background-image: url("./images/footer-bg.png");
     background-repeat: no-repeat;
