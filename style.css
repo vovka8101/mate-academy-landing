@@ -251,7 +251,7 @@ h1 {
 /* #endregion */
 
 
-/* ---------- Responsiveness ---------- */
+/* #region Responsiveness */
 /* #region tablet devices */
 @media (max-width: 744px) {
     h1, .main__title {
@@ -283,5 +283,61 @@ h1 {
     .categories .main__title {
         margin-top: 8px;
     }
+
+    .footer {
+        height: 400px;
+    }
 }
+
+@media (max-width: 560px) {
+    .header, .menu {
+        padding: 24px 20px;
+    }
+
+    .main {
+        padding: 60px 20px;
+    }
+
+    .how-to-buy {
+        flex-direction: column;
+        gap: unset;
+    }
+
+    .how-to-buy__title {
+        margin-bottom: 32px;
+    }
+}
+/* #endregion */
+
+/* #region small devices */
+@media (max-width: 425px) {
+    h1, .main__title {
+        font-size: 32px;
+    }
+
+    .recommended__product img {
+        width: 280px;
+    }
+
+    .categories .main__title {
+        margin-top: 0;
+    }
+
+    .category__photos {
+        gap: 6%;
+    }
+
+    .photo-wide, .photo-square {
+        width: 47%;
+    }
+
+    .photo-wide {
+        object-fit: cover;
+    }
+    .footer {
+        height: 200px;
+    }
+}
+/* #endregion */
+
 /* #endregion */
